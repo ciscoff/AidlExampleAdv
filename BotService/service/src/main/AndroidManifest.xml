@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.barabu.service">
+
+    <application>
+        <service
+            android:name=".BotService"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+
+</manifest>

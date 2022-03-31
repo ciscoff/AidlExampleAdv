@@ -15,4 +15,7 @@ dependencyResolutionManagement {
 rootProject.name = "BotService"
 include ':app'
 include ':bot'
-project (':bot').projectDir = new File('../BotCommon')
+include ':service'
+
+project(":bot").projectDir=new File("..", "BotCommon/bot")
+
